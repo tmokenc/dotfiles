@@ -1,0 +1,133 @@
+{
+    "sources": [
+        {
+            "enabled": true,
+            "name": "Noctalia Plugins",
+            "url": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        {
+            "enabled": true,
+            "name": "My Vibed Plugin",
+            "url": "https://github.com/tmokenc/vibed-noctalia-plugin"
+        }
+    ],
+    "states": {
+        "activate-linux": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "anime-corner": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "arch-updater": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "assistant-panel": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "catwalk": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "clipper": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "custom-commands": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "dns-switcher": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "hot-corners": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "kanshi-manager": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "kaomoji-provider": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "keybind-cheatsheet": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "mimeapp-gui": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "mini-docker": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "model-usage": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "network-manager-vpn": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "niri-animation-picker": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "noctalia-kanshi-manager": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "obs-control": {
+            "enabled": false,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "polkit-agent": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "privacy-indicator": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "screen-recorder": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "screen-toolkit": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "sys-info-widget": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "timer": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "todo": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "usb-drive-manager": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "wallcards": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        },
+        "web-search": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        }
+    },
+    "version": 2
+}

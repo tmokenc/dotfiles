@@ -1,0 +1,9 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+spawn-sh-at-startup "qs -c noctalia-shell" // NOCTALIA
+spawn-sh-at-startup "kanshi" // monitor
+
+// spawn-sh-at-startup "sleep 5; kded6" // not sure... but messed up the tray
+spawn-at-startup "fcitx5" // keyboard method (unikey)
+spawn-at-startup "wl-paste --watch cliphist store" // clipboard

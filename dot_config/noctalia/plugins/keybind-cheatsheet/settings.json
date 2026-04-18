@@ -1,0 +1,279 @@
+{
+  "cheatsheetData": [
+    {
+      "title": "Mod",
+      "binds": [
+        {
+          "keys": "Super + Shift + Slash",
+          "desc": "Run: qs -c noctalia-shell ipc call plugin:keybind-cheatsheet toggle"
+        },
+        {
+          "keys": "Super + T",
+          "desc": "Open a Terminal: kitty"
+        },
+        {
+          "keys": "Super + Return",
+          "desc": "Open a Terminal: kitty"
+        },
+        {
+          "keys": "Super + D",
+          "desc": "Run an Application: fuzzel"
+        },
+        {
+          "keys": "Super + Alt + L",
+          "desc": "Lock the Screen: swaylock"
+        },
+        {
+          "keys": "Super + Alt + S",
+          "desc": "Color Picker"
+        }
+      ]
+    },
+    {
+      "title": "-l 1.0",
+      "binds": [
+        {
+          "keys": "Super + O",
+          "desc": "Toggle Overview"
+        },
+        {
+          "keys": "Super + Q",
+          "desc": "Close Window"
+        },
+        {
+          "keys": "Super + U",
+          "desc": "Focus Workspace Down"
+        },
+        {
+          "keys": "Super + I",
+          "desc": "Focus Workspace Up"
+        },
+        {
+          "keys": "Super + Ctrl + U",
+          "desc": "Move Column To Workspace Down"
+        },
+        {
+          "keys": "Super + Ctrl + I",
+          "desc": "Move Column To Workspace Up"
+        },
+        {
+          "keys": "Super + Shift + U",
+          "desc": "Move Workspace Down"
+        },
+        {
+          "keys": "Super + Shift + I",
+          "desc": "Move Workspace Up"
+        },
+        {
+          "keys": "Super + WheelScrollDown",
+          "desc": "Focus Workspace Down"
+        },
+        {
+          "keys": "Super + WheelScrollUp",
+          "desc": "Focus Workspace Up"
+        },
+        {
+          "keys": "Super + Ctrl + WheelScrollDown",
+          "desc": "Move Column To Workspace Down"
+        },
+        {
+          "keys": "Super + Ctrl + WheelScrollUp",
+          "desc": "Move Column To Workspace Up"
+        },
+        {
+          "keys": "Super + WheelScrollRight",
+          "desc": "Focus Column Right"
+        },
+        {
+          "keys": "Super + WheelScrollLeft",
+          "desc": "Focus Column Left"
+        },
+        {
+          "keys": "Super + Ctrl + WheelScrollRight",
+          "desc": "Move Column Right"
+        },
+        {
+          "keys": "Super + Ctrl + WheelScrollLeft",
+          "desc": "Move Column Left"
+        },
+        {
+          "keys": "Super + Shift + WheelScrollDown",
+          "desc": "Focus Column Right"
+        },
+        {
+          "keys": "Super + Shift + WheelScrollUp",
+          "desc": "Focus Column Left"
+        },
+        {
+          "keys": "Super + Ctrl + Shift + WheelScrollDown",
+          "desc": "Move Column Right"
+        },
+        {
+          "keys": "Super + Ctrl + Shift + WheelScrollUp",
+          "desc": "Move Column Left"
+        }
+      ]
+    },
+    {
+      "title": "best effort",
+      "binds": [
+        {
+          "keys": "Super + BracketLeft",
+          "desc": "Consume Or Expel Window Left"
+        },
+        {
+          "keys": "Super + BracketRight",
+          "desc": "Consume Or Expel Window Right"
+        },
+        {
+          "keys": "Super + Comma",
+          "desc": "Consume Window Into Column"
+        },
+        {
+          "keys": "Super + Period",
+          "desc": "Expel Window From Column"
+        },
+        {
+          "keys": "Super + R",
+          "desc": "Switch Preset Column Width"
+        },
+        {
+          "keys": "Super + Shift + R",
+          "desc": "Switch Preset Window Height"
+        },
+        {
+          "keys": "Super + Ctrl + R",
+          "desc": "Reset Window Height"
+        },
+        {
+          "keys": "Super + F",
+          "desc": "Maximize Column"
+        },
+        {
+          "keys": "Super + Shift + F",
+          "desc": "Fullscreen Window"
+        },
+        {
+          "keys": "Super + M",
+          "desc": "Maximize Window To Edges"
+        },
+        {
+          "keys": "Super + Ctrl + F",
+          "desc": "Expand Column To Available Width"
+        },
+        {
+          "keys": "Super + C",
+          "desc": "Center Column"
+        },
+        {
+          "keys": "Super + Ctrl + C",
+          "desc": "Center Visible Columns"
+        },
+        {
+          "keys": "Super + Minus",
+          "desc": "Set Column Width \" 10%\""
+        },
+        {
+          "keys": "Super + Equal",
+          "desc": "Set Column Width \"+10%\""
+        },
+        {
+          "keys": "Super + Shift + Minus",
+          "desc": "Set Window Height \" 10%\""
+        },
+        {
+          "keys": "Super + Shift + Equal",
+          "desc": "Set Window Height \"+10%\""
+        },
+        {
+          "keys": "Super + V",
+          "desc": "Toggle Window Floating"
+        },
+        {
+          "keys": "Super + Shift + V",
+          "desc": "Switch Focus Between Floating And Tiling"
+        },
+        {
+          "keys": "Super + W",
+          "desc": "Toggle Column Tabbed Display"
+        },
+        {
+          "keys": "PrtSc",
+          "desc": "Screenshot"
+        },
+        {
+          "keys": "Super + Shift + S",
+          "desc": "Screenshot"
+        },
+        {
+          "keys": "Ctrl + PrtSc",
+          "desc": "Screenshot Screen"
+        },
+        {
+          "keys": "Alt + PrtSc",
+          "desc": "Screenshot Window"
+        },
+        {
+          "keys": "Super + Escape",
+          "desc": "Toggle Keyboard Shortcuts Inhibit"
+        },
+        {
+          "keys": "Super + Shift + E",
+          "desc": "Quit"
+        },
+        {
+          "keys": "Ctrl + Alt + Delete",
+          "desc": "Quit"
+        },
+        {
+          "keys": "Super + Shift + P",
+          "desc": "Power Off Monitors"
+        },
+        {
+          "keys": "Super + E",
+          "desc": "File Manager: Dolphin"
+        },
+        {
+          "keys": "Super + A",
+          "desc": "Assistent Panel"
+        },
+        {
+          "keys": "Super + Alt + A",
+          "desc": "Anime Corner"
+        },
+        {
+          "keys": "Super + B",
+          "desc": "Open Browser: zen"
+        },
+        {
+          "keys": "Super + G",
+          "desc": "Clipper"
+        },
+        {
+          "keys": "Super + Space",
+          "desc": "Launcher"
+        },
+        {
+          "keys": "Super + S",
+          "desc": "Control Center"
+        },
+        {
+          "keys": "Super + P",
+          "desc": "Noctalia Performance"
+        },
+        {
+          "keys": "Super + Shift + G",
+          "desc": "Wallcards"
+        }
+      ]
+    }
+  ],
+  "detectedCompositor": "niri",
+  "windowWidth": 1600,
+  "windowHeight": 850,
+  "autoHeight": true,
+  "columnCount": 3,
+  "modKeyVariable": "$mod",
+  "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
+  "niriConfigPath": "~/.config/niri/config.kdl"
+}

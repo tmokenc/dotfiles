@@ -1,0 +1,35 @@
+workspace "default"
+workspace "chat"
+workspace "browser"
+workspace "game"
+
+window-rule {
+    match app-id="firefox"
+    match app-id="zen"
+
+    exclude title="Picture-in-Picture"
+
+    open-on-workspace "browser"
+    default-column-width { proportion 0.6666; }
+}
+
+window-rule {
+    match app-id="gamescope"
+    match app-id="Mahjong-JP.x86_64"
+    match title="manosaba"
+
+    open-on-workspace "game"
+    open-maximized-to-edges true
+}
+
+window-rule {
+    match app-id="discord"
+    match app-id="vesktop"
+    match app-id="org.telegram.desktop"
+
+    exclude title="Media viewer"
+
+    open-on-workspace "chat"
+}
+
+

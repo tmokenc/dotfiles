@@ -1,0 +1,48 @@
+window-rule {
+    geometry-corner-radius 16 // Set every window radius to 16
+    clip-to-geometry true
+}
+
+layer-rule {
+    match namespace="^noctalia-overview*"
+    place-within-backdrop true
+}
+
+// Firefox's picture-in-picture window
+window-rule {
+    match title="Picture-in-Picture"
+    default-column-width { proportion 0.3333; }
+    default-window-height { proportion 0.3333; }
+    default-floating-position x=50 y=50 relative-to="top-right"
+
+    open-floating true
+    open-focused false
+    baba-is-float true
+}
+
+window-rule {
+    match is-floating=false
+    baba-is-float false
+}
+
+// Open with 2/3 width
+window-rule {
+    
+    match app-id="com.obsproject.Studio"
+    match app-id="mpv"
+
+    default-column-width { proportion 0.666666; }
+}
+
+window-rule {
+    // match title="^(Open|Choose|Save)(.*)$"
+    match app-id="(xdg-desktop-portal)(.*)"
+    match app-id="filepicker"
+    match app-id="org.freedesktop.impl.portal.desktop.kde"
+    default-column-width { proportion 0.5; }
+    default-window-height { proportion 0.8; }
+    open-floating true
+    open-fullscreen false
+}
+
+
