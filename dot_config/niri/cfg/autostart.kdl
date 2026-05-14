@@ -7,3 +7,6 @@ spawn-sh-at-startup "kanshi" // monitor
 // spawn-sh-at-startup "sleep 5; kded6" // not sure... but messed up the tray
 spawn-at-startup "fcitx5" // keyboard method (unikey)
 spawn-at-startup "wl-paste --watch cliphist store" // clipboard
+
+/// scratchpad watcher, to automatically close the scratchpad when it loses focus, and reopen it when it gains focus again. See
+spawn-at-startup "sh" "~/scripts/niri-scratchpad-watcher.sh"

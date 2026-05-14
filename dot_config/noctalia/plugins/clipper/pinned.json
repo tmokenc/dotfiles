@@ -8,6 +8,24 @@
       "mime": "text/plain",
       "isImage": false,
       "pinnedAt": 1773157382779
+    },
+    {
+      "id": "pinned-1777674332041-1126",
+      "cliphistId": "1126",
+      "content": "pkill -9 wl-paste; wl-paste --watch cliphist store &",
+      "preview": "pkill -9 wl-paste; wl-paste --watch cliphist store &",
+      "mime": "text/plain",
+      "isImage": false,
+      "pinnedAt": 1777674332041
+    },
+    {
+      "id": "pinned-1777674346531-1128",
+      "cliphistId": "1128",
+      "content": "LOAI8tJPC6nj",
+      "preview": "LOAI8tJPC6nj",
+      "mime": "text/plain",
+      "isImage": false,
+      "pinnedAt": 1777674346531
     }
   ]
 }

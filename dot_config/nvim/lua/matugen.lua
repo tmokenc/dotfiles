@@ -3,23 +3,23 @@ local M = {}
 function M.setup()
   require("base16-colorscheme").setup {
     -- Background tones
-    base00 = "#141316", -- Default Background
-    base01 = "#211f22", -- Lighter Background (status bars)
-    base02 = "#2b292d", -- Selection Background
-    base03 = "#958e99", -- Comments, Invisibles
+    base00 = "#171213", -- Default Background
+    base01 = "#241e20", -- Lighter Background (status bars)
+    base02 = "#2f282a", -- Selection Background
+    base03 = "#9e8c90", -- Comments, Invisibles
     -- Foreground tones
-    base04 = "#ccc4cf", -- Dark Foreground (status bars)
-    base05 = "#e7e1e6", -- Default Foreground
-    base06 = "#e7e1e6", -- Light Foreground
-    base07 = "#e7e1e6", -- Lightest Foreground
+    base04 = "#d5c2c6", -- Dark Foreground (status bars)
+    base05 = "#ebe0e1", -- Default Foreground
+    base06 = "#ebe0e1", -- Light Foreground
+    base07 = "#ebe0e1", -- Lightest Foreground
     -- Accent colors
     base08 = "#ffb4ab", -- Variables, XML Tags, Errors
-    base09 = "#f2b7c2", -- Integers, Constants
-    base0A = "#cec2da", -- Classes, Search Background
-    base0B = "#d7baff", -- Strings, Diff Inserted
-    base0C = "#f2b7c2", -- Regex, Escape Chars
-    base0D = "#d7baff", -- Functions, Methods
-    base0E = "#cec2da", -- Keywords, Storage
+    base09 = "#efbc95", -- Integers, Constants
+    base0A = "#e2bdc7", -- Classes, Search Background
+    base0B = "#ffb0ca", -- Strings, Diff Inserted
+    base0C = "#efbc95", -- Regex, Escape Chars
+    base0D = "#ffb0ca", -- Functions, Methods
+    base0E = "#e2bdc7", -- Keywords, Storage
     base0F = "#93000a", -- Deprecated, Embedded Tags
   }
 end

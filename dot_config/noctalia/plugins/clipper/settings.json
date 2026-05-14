@@ -1,10 +1,20 @@
 {
+  "enableTodoIntegration": true,
+  "pincardsEnabled": true,
   "notecardsEnabled": true,
+  "showCloseButton": true,
+  "fullscreenMode": true,
+  "hidePanelBackground": false,
+  "autoPaste": false,
+  "autoPasteOnRightClick": false,
+  "autoPasteDelay": 300,
+  "panelWidth": 1450,
+  "panelHeight": 0,
   "cardColors": {
     "Text": {
       "bg": "mOutline",
       "separator": "mSurface",
-      "fg": "mSurfaceVariant"
+      "fg": "mOnSurface"
     },
     "Image": {
       "bg": "mTertiary",
@@ -73,13 +83,5 @@
       "separator": "#000000",
       "fg": "#1e1418"
     }
-  },
-  "enableTodoIntegration": true,
-  "showCloseButton": true,
-  "pincardsEnabled": true,
-  "fullscreenMode": true,
-  "hidePanelBackground": false,
-  "autoPaste": false,
-  "autoPasteOnRightClick": false,
-  "autoPasteDelay": 300
+  }
 }

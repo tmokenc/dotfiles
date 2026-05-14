@@ -27,7 +27,7 @@ window-rule {
 
 // Open with 2/3 width
 window-rule {
-    
+    match app-id="org.qbittorrent.qBittorrent"
     match app-id="com.obsproject.Studio"
     match app-id="mpv"
 
@@ -45,4 +45,12 @@ window-rule {
     open-fullscreen false
 }
 
-
+window-rule {
+    match app-id="^scratchpad$"
+    open-floating true
+    default-column-width { proportion 0.7; }
+    default-window-height { proportion 0.7; }
+    background-effect {
+        blur true
+    }
+}

@@ -30,10 +30,10 @@
     "audio": {
         "mprisBlacklist": [
         ],
-        "preferredPlayer": "",
+        "preferredPlayer": "mpv",
         "spectrumFrameRate": 30,
         "spectrumMirrored": true,
-        "visualizerType": "wave",
+        "visualizerType": "mirrored",
         "volumeFeedback": false,
         "volumeFeedbackSoundFile": "",
         "volumeOverdrive": false,
@@ -187,6 +187,12 @@
                         "refreshInterval": 5000
                     },
                     "id": "plugin:mini-docker"
+                },
+                {
+                    "colorName": "primary",
+                    "hideWhenIdle": true,
+                    "id": "AudioVisualizer",
+                    "width": 200
                 }
             ],
             "left": [
@@ -261,6 +267,21 @@
                 },
                 {
                     "defaultSettings": {
+                        "colorHistory": [
+                        ],
+                        "detectedRecorder": "",
+                        "installedLangs": [
+                            "eng"
+                        ],
+                        "paletteColors": [
+                        ],
+                        "selectedOcrLang": "eng",
+                        "transAvailable": false
+                    },
+                    "id": "plugin:screen-toolkit"
+                },
+                {
+                    "defaultSettings": {
                         "audioCodec": "opus",
                         "audioSource": "default_output",
                         "colorRange": "limited",
@@ -284,35 +305,7 @@
                     "id": "plugin:screen-recorder"
                 },
                 {
-                    "defaultSettings": {
-                        "colorHistory": [
-                        ],
-                        "detectedRecorder": "",
-                        "installedLangs": [
-                            "eng"
-                        ],
-                        "paletteColors": [
-                        ],
-                        "selectedOcrLang": "eng",
-                        "transAvailable": false
-                    },
-                    "id": "plugin:screen-toolkit"
-                },
-                {
                     "id": "plugin:dns-switcher"
-                },
-                {
-                    "defaultSettings": {
-                        "autoReloadOnStartup": true,
-                        "barPollMs": 8000,
-                        "configPath": "",
-                        "kanshictlCommand": "kanshictl",
-                        "niriCommand": "niri",
-                        "panelHeight": 720,
-                        "panelWidth": 1180,
-                        "pythonCommand": "python3"
-                    },
-                    "id": "plugin:kanshi-manager"
                 },
                 {
                     "defaultSettings": {
@@ -343,6 +336,49 @@
                         "refreshIntervalSec": 30
                     },
                     "id": "plugin:model-usage"
+                },
+                {
+                    "defaultSettings": {
+                        "autoReloadOnStartup": true,
+                        "barPollMs": 8000,
+                        "configPath": "",
+                        "kanshictlCommand": "kanshictl",
+                        "niriCommand": "niri",
+                        "panelHeight": 720,
+                        "panelWidth": 1180,
+                        "pythonCommand": "python3"
+                    },
+                    "id": "plugin:kanshi-manager"
+                },
+                {
+                    "defaultSettings": {
+                        "animate_window": true,
+                        "animation_cards_duration": 750,
+                        "animation_window_duration": 500,
+                        "background_color": null,
+                        "background_opacity": null,
+                        "card_height": 350,
+                        "card_spacing": 6,
+                        "card_strip_width": 90,
+                        "cards_shown": 11,
+                        "center_width_ratio": 0.33,
+                        "hide_help": false,
+                        "hide_top_bar": false,
+                        "image_filter": [
+                            "png",
+                            "jpg",
+                            "jpeg"
+                        ],
+                        "live_preview": false,
+                        "selected_filter": "images",
+                        "shear_factor": -0.25,
+                        "top_bar_height": 35,
+                        "video_filter": [
+                            "mp4",
+                            "avi"
+                        ]
+                    },
+                    "id": "plugin:wallcards"
                 }
             ]
         }
@@ -664,8 +700,8 @@
         "overlayLayer": true
     },
     "plugins": {
-        "autoUpdate": false,
-        "notifyUpdates": true
+        "autoUpdate": true,
+        "notifyUpdates": false
     },
     "sessionMenu": {
         "countdownDuration": 10000,
@@ -803,10 +839,6 @@
             {
                 "enabled": true,
                 "id": "gtk"
-            },
-            {
-                "enabled": true,
-                "id": "zenBrowser"
             }
         ],
         "enableUserTheming": true
@@ -1128,6 +1160,34 @@
                     "#ffb4ab"
                 ],
                 "path": "/home/tmokenc/Pictures/Wallpapers/100668795_p2.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#a7c8ff",
+                    "#bdc7dc",
+                    "#dbbde2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/tmokenc/Pictures/Wallpapers/yandere-1256698.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#4fdbd0",
+                    "#b0ccc8",
+                    "#afc9e7",
+                    "#ffb4ab"
+                ],
+                "path": "/home/tmokenc/Pictures/Wallpapers/konachan-163166.png",
                 "useWallpaperColors": true
             }
         ],

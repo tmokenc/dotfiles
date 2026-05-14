@@ -1,37 +1,51 @@
 {
   "colorHistory": [
+    "#FED8FE",
     "#0D1117",
     "#313A4C",
     "#161215",
     "#535354",
     "#212121",
     "#8F8385",
-    "#40403E",
-    "#40403C"
+    "#40403E"
   ],
-  "paletteColors": [],
+  "paletteColors": [
+    "#4F3046",
+    "#695461",
+    "#936564",
+    "#7B7286",
+    "#C15FBC",
+    "#5DC1BD",
+    "#C0B7C1",
+    "#F9F1E9"
+  ],
   "installedLangs": [
     "eng",
     "jpn",
     "vie"
   ],
   "transAvailable": true,
-  "selectedOcrLang": "jpn",
+  "selectedOcrLang": "eng",
   "screenshotPath": "",
   "videoPath": "",
   "filenameFormat": "",
   "detectedRecorder": "wf-recorder",
+  "recordSkipConfirmation": false,
+  "recordCopyToClipboard": false,
+  "gifMaxSeconds": 30,
   "detectedCompositor": "niri",
   "stateIsRunning": false,
   "stateActiveTool": "",
   "stateMirrorVisible": false,
-  "resultHex": "",
-  "resultRgb": "",
-  "resultHsv": "",
-  "resultHsl": "",
-  "colorCapturePath": "",
-  "ocrResult": "WHEoEL BFEAS",
-  "ocrCapturePath": "/tmp/screen-toolkit-ocr.png",
+  "resultHex": "#FED8FE",
+  "resultRgb": "rgb(254, 216, 254)",
+  "resultHsv": "hsv(300, 15%, 100%)",
+  "resultHsl": "hsl(300, 95%, 92%)",
+  "colorCapturePath": "/tmp/screen-toolkit-colorpicker.png",
+  "ocrResult": "",
+  "ocrCapturePath": "",
   "translateResult": "",
-  "colorCacheBust": 0
+  "colorCacheBust": 1778728947707,
+  "qrResult": "",
+  "qrCapturePath": ""
 }

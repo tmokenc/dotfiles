@@ -17,6 +17,7 @@ window-rule {
     match app-id="gamescope"
     match app-id="Mahjong-JP.x86_64"
     match title="manosaba"
+    match title="LOVEPICAL-POPPY!.*"
 
     open-on-workspace "game"
     open-maximized-to-edges true
