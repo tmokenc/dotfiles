@@ -9,7 +9,7 @@
     "provider": "google",
     "model": "gemini-3-flash-preview",
     "apiKeys": {
-      "google": "AIzaSyD0Wcb4VvG4JHOeM49E8PjAHASfjvcyGm4"
+      "google": ""
     },
     "temperature": 0.7,
     "systemPrompt": "You are a helpful assistant integrated into a Linux desktop shell. Be concise and helpful.",
